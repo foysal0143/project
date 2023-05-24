@@ -1,0 +1,473 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #121b25;
+    padding: 1.5rem 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 2.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #95979c;
+    font-size: 17px;
+    transition: all 0.4s ease;
+}
+.right-ul li{
+    margin-left: 2rem;
+}
+.button a{
+    padding: 1rem 1.5rem;
+    background-color: #1aa090;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+
+/*-------banner section----*/
+
+
+.banner-section{
+    background-color: #121b25;
+    height: 100vh;
+    width: 100%;
+}
+.banner-row{
+    display: flex;
+    padding-top: 4.5rem;
+    color: white;
+    width:80%;
+    position: relative;
+}
+.banner-col2{
+    position: relative;
+    left: 55%;
+    width: 40%;
+
+}
+.banner-img img{
+    width: 150%;
+    margin-top: 2rem;
+    margin-left: 8.5rem;
+}
+.banner-col1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.banner-row .banner-col1 h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.banner-row .banner-col1 p{
+    margin: 1.3rem 0;
+    line-height: 1.7;
+    font-size: 20px;
+    color: #95979c;
+}
+.search-menu{
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+}
+.search-menu select{
+    padding: 2rem 7rem 2rem .5rem;
+    outline: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-color: rgba(0, 0, 0, 0.185);
+}
+.int{
+    border: none;
+    font-size: 22px;
+    padding: 1.5rem 4.2rem;
+    background-color: #1aa090;
+    color: white;
+    margin-right: .2rem;
+    margin-top: .2rem;
+}
+
+  
+
+
+/*----------featured section-----*/
+
+
+.featured-in-section{
+    background-color: #121b25;
+    padding: 7rem 0 5rem;
+    
+}
+.container h2{
+    font-size: 40px;
+    color: white;
+}
+
+.ft-row{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+/*------slide section----*/
+.popular-section{
+    padding: 8rem 0 2rem;
+    background-color: #121b25;
+}
+.container h2{
+    color: white;
+    background-color: #121b25;
+
+}
+.popular-section .card{
+    background-color: #121b25;
+    border: none;
+}
+
+.slide-text{
+    margin-top: 1rem;
+    color: white;
+    background-color:;
+}
+.slide-text h3{
+    font-size: 25px;
+}
+.slide-text p{
+    margin: 1rem 0 0;
+    font-size: 13px;
+}
+ 
+.row{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: auto;
+    color: white;
+}
+.col{
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+.col1{
+    align-items: start;
+}
+.col2{
+    
+}
+.col i{
+    color: #1aa090;
+    font-size: 25px;
+}
+.col1 i{
+    color: #1aa090;
+    font-size: 25px;
+}
+.col2 i{
+    color: #1aa090;
+    font-size: 25px;
+}
+.col span{
+    margin-left: .7rem;
+}
+.col1 span{
+    margin-right: 2rem;
+}
+.col2 span{
+    margin-right: 2rem;
+}
+.col p{
+    margin-top: .5rem;
+    margin-left: .4rem;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.col1 p{
+    margin-top: .5rem;
+    margin-left: .4rem;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.col2 p{
+    margin-top: .5rem;
+    margin-left: .4rem;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.owl-dots{
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    margin-right: .5rem;
+    margin-top: 5rem;
+    background-color: white;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background-color: black;
+}
+.a{
+    background-color: #121b25;
+}
+.a a{
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    background-color: #1aa090;
+    color: white;
+    margin-left: 43%;
+    
+}
+
+/*----------choose-section-----*/
+
+.choose-section{
+    background-color: #121b25;
+    padding: 8rem 0 4rem;
+}
+.choose-section h2{
+    padding: rem 0;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.choose-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5rem; 
+}
+.choose-icon{
+    margin-left: 35%;
+}
+
+.choose-row .choose-icon i{
+   width: 110px;
+   height: 110px;
+   border-radius: 100%;
+   background-color: #1aa0903e;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 32px;
+}
+.choose-card .choose-text{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+.choose-text h3{
+    font-size: 30px;
+}
+.choose-text p{
+    margin: 1.5rem 0;
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(184, 184, 184);
+}
+
+/*---------testimonial section----*/
+
+
+.testimonial-section{
+    background-color: #121b25;
+    padding: 4rem 0;
+}
+.testimonial-container{
+    width: 700px;
+    margin: 0 auto;
+}
+.testimonial-icon i{
+    font-size: 100px;
+    color: #1aa090;
+}
+blockquote{
+    color: white;
+    margin: 1rem 0 5rem;
+}
+.testimonial-review h5{
+    color: white;
+    font-size: 30px;
+}
+.testimonial-review p{
+    color: white;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.owl-nav{
+    
+    position: relative;
+
+}
+
+.owl-prev span{
+    color: white;
+    font-size: 100px;
+    top: -10rem;
+    left: 80%;
+    position: absolute;
+    
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.owl-next span{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: -10rem;
+    left: 90%;
+    
+}
+
+/*--------help people section----*/
+
+.help-section{
+    padding: 8rem 0;
+    background-color: #121b25;
+}
+.help-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    color: white;
+}
+.help-text h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.help-text p{
+    margin: 2rem 0 3rem;
+    line-height: 1.7;
+    color: #dedfe0;
+    font-size: 19px;
+}
+
+.help-btn{
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    background-color: #1aa090;
+    color: white;
+    margin-top: 5rem;
+}
+
+/*  rentiz section----*/
+
+
+
+.rentiz-section{
+    padding: 8rem 0;
+    background-color: #121b25;
+}
+.rentiz-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    color: white;
+}
+
+.rentiz-text h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.rentiz-second-text p{
+    font-size: 19px;
+    line-height: 1.7;
+    color: #d5d5d5;
+    margin: 0 0 3rem;
+}
+
+/*footer section----*/
+
+
+.footer-section{
+    padding: 8rem 0;
+    background-color: #1a242f;
+}
+.footer-row{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 4rem;
+    color: white;
+}
+.footer-col .first-col p{
+    color: white;
+    padding: 1.8rem 0;
+    line-height: 1,7;
+    color: #cdd0d2;
+}
+.footer-img{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 26px;
+}
+.second-text{
+    margin-left: 2rem;
+}
+.second-text h3,.third-text h3,.fourth-text h3,.last-text h3{
+    margin: 0 0 1.7rem;
+}
+
+/*-------last footer section----*/
+
+.last-footer{
+    padding: 0 0 1rem;
+    background-color: #121b25;
+}
+.hr{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.last-row{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.last-footer-text{
+    padding-top: 2rem;
+}
+.last-footer-text i{
+    display: inline;
+}
+.last-footer-text p{
+    display: inline;
+}
+
+.second-footer-text{
+    padding-top: 2rem;
+}
